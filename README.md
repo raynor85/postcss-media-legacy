@@ -1,10 +1,6 @@
-# PostCSS Media Legacy [![Build Status][ci-img]][ci]
+# PostCSS Media Legacy
 
-<img align="right" width="95" height="95"
-     title="Philosopher’s stone, logo of PostCSS"
-     src="http://postcss.github.io/postcss/logo.svg">
-
-[PostCSS](https://github.com/raynor85/postcss-media-legacy) plugin for Mobile First development that rewrites media queries for IE8 and below.**
+[PostCSS](https://github.com/raynor85/postcss-media-legacy) plugin for Mobile First development that rewrites media queries for IE8 and below.
 
 Use this plugin with [Modernizr](http://modernizr.com/) or adding the class "lt-ie9" in your html element.
 
