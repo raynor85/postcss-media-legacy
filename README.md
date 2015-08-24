@@ -1,6 +1,6 @@
-# postcss-media-legacy [![Build Status](https://travis-ci.org/davidtheclark/postcss-simple-extend.svg?branch=master)](https://travis-ci.org/davidtheclark/postcss-simple-extend)
+# postcss-media-legacy [![Build Status][ci-img]][ci]
 
-**A [PostCSS](https://github.com/postcss/postcss) plugin for Mobile First development that rewrites media queries for IE8 and below.**
+**A [PostCSS](https://github.com/raynor85/postcss-media-legacy) plugin for Mobile First development that rewrites media queries for IE8 and below.**
 
 Use this plugin with [Modernizr](http://modernizr.com/) or adding the class "lt-ie9" in your html element.
 
