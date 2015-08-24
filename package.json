@@ -1,0 +1,55 @@
+{
+  "name": "postcss-media-legacy",
+  "author": {
+    "name": "Ruben Rizzi",
+    "email": "raynor85@gmail.com",
+    "url": "http://www.rubenrizzi.com/"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Simple plugin for PostCSS to copy media queries for browsers which cannot support them, ideal for Mobile First development",
+  "homepage": "https://github.com/raynor85/postcss-media-legacy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raynor85/postcss-media-legacy.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugin",
+    "media-query",
+    "legacy",
+    "ie8"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "postcss": "^4.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/raynor85/postcss-media-legacy/issues"
+  },
+  "_id": "postcss-media-legacy@1.0.0",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "rubenrizzi",
+    "email": "raynor85@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "rubenrizzi",
+      "email": "raynor85@gmail.com"
+    }
+  ],
+  "dist": {
+    "tarball": "http://registry.npmjs.org/postcss-media-legacy/-/postcss-media-legacy-1.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/postcss-media-legacy/-/postcss-media-legacy-1.0.0.tgz"
+}
