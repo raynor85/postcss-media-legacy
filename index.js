@@ -17,7 +17,6 @@ module.exports = postcss.plugin('postcss-media-legacy', function mediaLegacy(opt
                         clonedNodeArray[i] = '.lt-ie9 ' + clonedNodeArray[i];
                     }
                     clonedNode.selector = clonedNodeArray.join(',');
-                    console.log(clonedNode.selector);
                     result.root.insertBefore( atRule, clonedNode );
                 });
             }
