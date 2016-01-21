@@ -1,3 +1,7 @@
+## 1.3.0
+* Support for Postcss 5.0.14.
+* Fixed: Bug when processing comments within the css
+
 ## 1.2.0
 * Fixed: https://github.com/raynor85/postcss-media-legacy/issues/1
 

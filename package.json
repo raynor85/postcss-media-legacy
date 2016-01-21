@@ -6,7 +6,7 @@
     "url": "http://www.rubenrizzi.com/"
   },
   "license": "MIT",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Simple plugin for PostCSS to copy media queries for browsers which cannot support them, ideal for Mobile First development",
   "homepage": "https://github.com/raynor85/postcss-media-legacy",
   "repository": {
@@ -29,7 +29,7 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "postcss": "^4.1.0"
+    "postcss": "^5.0.14"
   },
   "bugs": {
     "url": "https://github.com/raynor85/postcss-media-legacy/issues"
@@ -48,10 +48,10 @@
     }
   ],
   "dist": {
-    "tarball": "http://registry.npmjs.org/postcss-media-legacy/-/postcss-media-legacy-1.2.1.tgz"
+    "tarball": "http://registry.npmjs.org/postcss-media-legacy/-/postcss-media-legacy-1.3.0.tgz"
   },
   "directories": {},
-  "_resolved": "https://registry.npmjs.org/postcss-media-legacy/-/postcss-media-legacy-1.2.1.tgz",
+  "_resolved": "https://registry.npmjs.org/postcss-media-legacy/-/postcss-media-legacy-1.3.0.tgz",
   "readme": "# PostCSS Media Legacy\n\n[PostCSS](https://github.com/raynor85/postcss-media-legacy) plugin for Mobile First development that rewrites media queries for IE8 and below.\n\nUse this plugin with [Modernizr](http://modernizr.com/) or adding the class \"lt-ie9\" in your html element.\n\n## Installation\n\n```\nnpm install postcss-media-legacy --save\n```\n\n## Example Input-Output\n\nInput:\n```css\n@media screen and (min-width:320px) {\n    .show-xs {\n        display: none\n    }\n}\n```\n\nOutput:\n```css\n.lt-ie9 .show-xs {\n    display: none;\n}\n@media screen and (min-width:320px) {\n    .show-xs {\n        display: none\n    }\n}\n```\n\n## Usage\n\n### Plug it in to PostCSS\n\nPlug it in just like any other PostCSS plugin. There are no options at the moment.\n\n```js\npostcss([ require('postcss-media-legacy') ])\n```\n\nOr take advantage of [any of the myriad other ways to consume PostCSS](https://github.com/postcss/postcss#usage), and follow the plugin instructions they provide.\n",
   "readmeFilename": "README.md",
   "gitHead": "e6f9f4a409d6d8bf33c150c12a3b98e1b7954aa7",
