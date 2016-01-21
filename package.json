@@ -6,7 +6,7 @@
     "url": "http://www.rubenrizzi.com/"
   },
   "license": "MIT",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Simple plugin for PostCSS to copy media queries for browsers which cannot support them, ideal for Mobile First development",
   "homepage": "https://github.com/raynor85/postcss-media-legacy",
   "repository": {
