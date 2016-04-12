@@ -8,7 +8,7 @@ module.exports = postcss.plugin('postcss-media-legacy', function mediaLegacy(opt
 
     return function(css, result) {
         css.walkAtRules(function(atRule) {
-            if(atRule.name === 'media') {
+            if(atRule.name === 'media' && atRule.params !== 'print') {
                 atRule.nodes.forEach(function( node ) {
                     if(node.type === 'rule') {
                         var clonedNode = node.clone(),
